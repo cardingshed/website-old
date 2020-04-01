@@ -10,14 +10,8 @@ website: www.datarich.org
 # Social links
 twitter_username: truecard
 github_username:  falsecard
-# dribbble_username: jekyll
+
 facebook_username: falsecard
-# flickr_username: jekyll
-# instagram_username: chillwildlife
-# linkedin_username: jameswgrant
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
 
 # About Section
 # about_title: About Me
@@ -25,7 +19,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Richard 
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am 
 
 # Projects Section
 # projects_title: Projects
