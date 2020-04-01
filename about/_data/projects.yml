@@ -1,0 +1,8 @@
+- layout: top-middle
+  name: project
+  link: github.com/falsecard
+  github: sproogen/resume-theme
+  quote: >
+    Layout placeholder
+  description: | # this will include new lines to allow paragraphs
+    I started this project
