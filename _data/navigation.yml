@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "home"
-    url: https://datarich.org/
+    url: "https://datarich.org/"
  - title:  "about"
-    url: /about
+    url: /about/
   - title: "pdf"
-    url: /pdf
+    url: /pdf/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
