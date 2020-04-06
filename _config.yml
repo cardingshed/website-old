@@ -126,10 +126,10 @@ footer:
       url:  mailto:falsecard@me.com
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/truecard
+      url: "https://twitter.com/truecard"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: https://facebook.com/falsecard
+      url: "https://facebook.com/falsecard"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/falsecard"
