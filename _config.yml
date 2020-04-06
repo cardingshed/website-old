@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Richard Johnson"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Teacher, Student" <br> "Statistician, Data Scientist"
+  bio              : "Teacher, Student <br> Statistician, Data Scientist"
   location         : # "Somewhere"
   email            : # "falsecard@me.com"
   links:
