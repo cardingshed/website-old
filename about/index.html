@@ -6,4 +6,43 @@ author_profile: true
 	<h1>About Me</h1>
 	<p><img src="/assets/images/construction.jpg" style="width: 15rem;" /></p>
 	<p>Under (active) construction</p>
-</div><!-- /.blurb -->
+	
+<hr>
+<p>Construction testing area</p>
+<hr>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+var content = document.getElementById("content");
+
+$(".showHide").on("click", function() {
+    $(this).parent().find(".more").toggle();
+    if ($(this).parent().find(".more").is(":visible")) {
+        $(this).text("Show less");
+    } else {
+        $(this).text("Show more");
+    }
+});
+</script>
+
+<div id="content">
+    <div class="text">
+        Projects
+        <div style="display:none;" class="more">MOOCs et al</div>
+        <a class="showHide" href="#">Show more</a>
+    </div>
+    <hr />
+    <div class="text">
+        Education
+        <div style="display:none;" class="more">Plural of Alma Mater?</div>
+        <a class="showHide" href="#">Show more</a>
+    </div>
+    <div class="text">
+        Employment
+        <div style="display:none;" class="more">ARBC</div>
+        <a class="showHide" href="#">Show more</a>
+    </div>
+    <div class="text">
+        Other interests
+        <div style="display:none;" class="more">If I had world enough and time</div>
+        <a class="showHide" href="#">Show more</a>
+    </div>
+</div>
