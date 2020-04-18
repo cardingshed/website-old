@@ -8,23 +8,40 @@ author_profile: true
 	<p>Under (active) construction</p>
 	
 <hr>
-<p>Construction testing areat.</p>
+<p>Construction testing area</p>
 <hr>
-<button onclick="hideandseek()" class="w3-btn w3-hover-black w3-dark-grey" style="box-shadow:none">Test 1</button>
-<div id="myDIV">
-This is a test!
-</div>
+var content = document.getElementById("content");
 
-<script>
-function hideandseek() {
-   var x = document.getElementById('myDIV');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
+$(".showHide").on("click", function() {
+    $(this).parent().find(".more").toggle();
+    if ($(this).parent().find(".more").is(":visible")) {
+        $(this).text("Show less");
     } else {
-        x.style.display = 'none';
+        $(this).text("Show more");
     }
-}
-</script>
-<hr>
+});
 
-</div><!-- /.blurb -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<div id="content">
+    <div class="text">
+        Projects
+        <div style="display:none;" class="more">MOOCs et al</div>
+        <a class="showHide" href="#">Show more</a>
+    </div>
+    <hr />
+    <div class="text">
+        Education
+        <div style="display:none;" class="more">Plural of Alma Mater?</div>
+        <a class="showHide" href="#">Show more</a>
+    </div>
+    <div class="text">
+        Employment
+        <div style="display:none;" class="more">ARBC</div>
+        <a class="showHide" href="#">Show more</a>
+    </div>
+    <div class="text">
+        Other interests
+        <div style="display:none;" class="more">If I had world enough and time</div>
+        <a class="showHide" href="#">Show more</a>
+    </div>
+</div>
