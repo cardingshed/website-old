@@ -10,39 +10,38 @@ author_profile: true
 <hr>
 <p>Construction testing area</p>
 <hr>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-var content = document.getElementById("content");
+<script>
+function toggleDocs(event) {
 
-$(".showHide").on("click", function() {
-    $(this).parent().find(".more").toggle();
-    if ($(this).parent().find(".more").is(":visible")) {
-        $(this).text("Show less");
-    } else {
-        $(this).text("Show more");
+    if (event.target && event.target.className == 'clickable-heading') {
+
+        var next = event.target.nextElementSibling;
+
+
+        if (next.style.display == "none") {
+            next.style.display = "block";
+
+        } else {
+            next.style.display = "none";
+        }
     }
-});
-</script>
+}
 
-<div id="content">
-    <div class="text">
-        Projects
-        <div style="display:none;" class="more">MOOCs et al</div>
-        <a class="showHide" href="#">Show more</a>
-    </div>
-    <hr />
-    <div class="text">
-        Education
-        <div style="display:none;" class="more">Plural of Alma Mater?</div>
-        <a class="showHide" href="#">Show more</a>
-    </div>
-    <div class="text">
-        Employment
-        <div style="display:none;" class="more">ARBC</div>
-        <a class="showHide" href="#">Show more</a>
-    </div>
-    <div class="text">
-        Other interests
-        <div style="display:none;" class="more">If I had world enough and time</div>
-        <a class="showHide" href="#">Show more</a>
-    </div>
-</div>
+document.addEventListener('click', toggleDocs, true);
+</script>
+	
+<h2 class="clickable-heading">Projects</h2>
+
+<ul style="display:none">
+	<p> proof of concept </p>
+    
+</ul>
+
+<h2 class="clickable-heading">Education</h2>
+
+<ul style="display:none">
+    <li><a href="#">this is a dummy link</a>
+
+    </li>
+    
+</ul>
