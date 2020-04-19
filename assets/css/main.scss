@@ -41,21 +41,21 @@
 
 .tab { margin-left: 3em; }
 
-dl  {
-    margin: 0px; padding: 0px;
-    background-color: #D0D;
-    overflow: auto;
+dl {
+    margin-bottom:10%;
 }
-
-dt  {
-   display: inline-block;
-   width: 20%;
-   background-color: #DD0;
+ 
+dl dt {
+    background:#5f9be3;
+    color:#fff;
+    float:left; 
+    font-weight:bold; 
+    margin-right:5%; 
+    padding:2%;  
+    width:15%; 
 }
-
-dd {
-   width: 70%;
-   padding: 10%;
-   display: inline-block;	
+ 
+dl dd {
+    margin:2%; 
+    padding:5%;
 }
-
