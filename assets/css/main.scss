@@ -6,3 +6,37 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.clickable-heading {
+    cursor:pointer;
+}
+.clickable-heading:hover {
+    color:#515151;
+}
+.float-left-area  {
+		  width: 15%;
+		  float: left;
+		  }
+
+.float-right-area {
+		  width: 85%;
+		  float: left;
+		  }
+
+.inner-left	  {
+		  padding: 5px 5px 5px 5px;
+		  margin-right: 10px;
+		  border: "0";
+		  min-height: 60px;
+		  text-align: center;
+		  }
+
+.inner-right	  {
+		  padding: 5px 5px 5px 5px;
+		  border: "0";
+		  min-height: 60px;
+		  }
+
+.clear-floated	  { clear: both; height: 1px; font-size: 1px; line-height: 1px; padding: 0; margin: 0; }
+
+.tab { margin-left: 30px; }

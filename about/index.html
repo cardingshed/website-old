@@ -5,44 +5,62 @@ author_profile: true
 <div class="blurb">
 	<h1>About Me</h1>
 	<p><img src="/assets/images/construction.jpg" style="width: 15rem;" /></p>
-	<p>Under (active) construction</p>
+	<p>Undergoing construction work</p>
 	
 <hr>
-<p>Construction testing area</p>
-<hr>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-var content = document.getElementById("content");
 
-$(".showHide").on("click", function() {
-    $(this).parent().find(".more").toggle();
-    if ($(this).parent().find(".more").is(":visible")) {
-        $(this).text("Show less");
-    } else {
-        $(this).text("Show more");
+<script>
+function toggleDocs(event) {
+
+    if (event.target && event.target.className == 'clickable-heading') {
+
+        var next = event.target.nextElementSibling;
+
+
+        if (next.style.display == "none") {
+            next.style.display = "block";
+
+        } else {
+            next.style.display = "none";
+        }
     }
-});
-</script>
+}
 
-<div id="content">
-    <div class="text">
-        Projects
-        <div style="display:none;" class="more">MOOCs et al</div>
-        <a class="showHide" href="#">Show more</a>
-    </div>
-    <hr />
-    <div class="text">
-        Education
-        <div style="display:none;" class="more">Plural of Alma Mater?</div>
-        <a class="showHide" href="#">Show more</a>
-    </div>
-    <div class="text">
-        Employment
-        <div style="display:none;" class="more">ARBC</div>
-        <a class="showHide" href="#">Show more</a>
-    </div>
-    <div class="text">
-        Other interests
-        <div style="display:none;" class="more">If I had world enough and time</div>
-        <a class="showHide" href="#">Show more</a>
-    </div>
+document.addEventListener('click', toggleDocs, true);
+</script>
+	
+
+<h2 class="clickable-heading">Education</h2>
+
+<div style="display:none">
+	<p>2018<span style='tab'><a
+	href="https://www.sheffield.ac.uk/scharr/sections/dts/statistics">University of Sheffield</a></span></p>
+	<p><span style='tab'>MSc <i>Statistics with Medical Applications</i></span></p>
+	<p><span>2013</span><span style='tab'><a
+	href="http://www.open.ac.uk/courses/maths">Open University</a></span></p>
+	<p><span style='tab'>DipStat <i>Diploma in Statistics</i></span></p>
+	<p>1999<span style='tab'><a
+	href="https://www.dur.ac.uk/university.college/">University College, Durham</a></span></p>
+	<p><span style='tab'>MMath<i> Pure Mathematics </i></span></p>
 </div>
+
+
+<h2 class="clickable-heading">Employment</h2>
+<div style="display:none">
+		<p>2003-20<span style='tab'><a href="https://www.andrewrobson.co.uk/at_the_club/meet_the_team/">Andrew Robson Bridge Club</a></span></p>
+	
+</div>
+
+<h2 class="clickable-heading">Projects</h2>
+
+<div style="display:none">
+	<p>2013-20<span style='tab'>Online learning</span></p>
+	<p>2018<span style='tab'>Statistics consultancy</span></p>
+	
+</div>
+
+	<h2 class="clickable-heading">Interests</h2>
+
+<ul style="display:none">
+    <p> proof of concept </p>
+</ul>
