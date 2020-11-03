@@ -107,13 +107,13 @@ author:
     #  url: "https://datarich.org"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/truecard"
+      url: "https://twitter.com/xor1ch"
     #- label: "Facebook"
     #  icon: "fab fa-fw fa-facebook-square"
     #  url: "https://facebook.com/falsecard"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/falsecard"
+      url: "https://github.com/xorich"
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -123,10 +123,10 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url:  mailto:falsecard@me.com
+      url:  mailto:public@richardjohnson.io
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/truecard"
+      url: "https://twitter.com/xor1ch"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/falsecard"
