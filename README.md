@@ -1,5 +1,5 @@
 # Personal Website 
-[www subdomain](https://www.deeprich.net) readme
+Welcome to the [www subdomain](https://www.deeprich.net) repo.
 
 Overview of [personal website](https://www.deeprich.net) structure and which repos to copy/fork: 
 
