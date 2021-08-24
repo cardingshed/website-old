@@ -4,7 +4,7 @@ main:
     url: "https://deeprich.net/"
   - title:  about
     url: /about/
-  - title: pdf
+  - title: examples
     url: /pdf/
   # - title: "Sample Posts"
   #   url: /year-archive/
