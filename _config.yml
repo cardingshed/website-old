@@ -107,7 +107,7 @@ author:
     #  url: "https://www.deeprich.net"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/tickrich"
+      url: "https://twitter.com/searchdepth"
     #- label: "Facebook"
     #  icon: "fab fa-fw fa-facebook-square"
     #  url: "https://facebook.com/falsecard"
@@ -129,7 +129,7 @@ footer:
       url:  mailto:public@richardjohnson.io
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/tickrich"
+      url: "https://twitter.com/searchdepth"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/falsecard"
